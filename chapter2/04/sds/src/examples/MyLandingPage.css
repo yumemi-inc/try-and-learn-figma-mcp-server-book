@@ -1,0 +1,40 @@
+.my-landing-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.my-landing-page__header .flex {
+  flex-wrap: wrap;
+}
+
+.my-landing-page__logo {
+  flex-shrink: 0;
+}
+
+.my-landing-page__nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sds-size-space-200);
+}
+
+.my-landing-page__nav-link {
+  white-space: nowrap;
+}
+
+.my-landing-page__header-actions {
+  flex-shrink: 0;
+}
+
+.my-landing-page__hero {
+  text-align: center;
+}
+
+.my-landing-page__pricing .navigation {
+  justify-content: center;
+}
+
+.my-landing-page__faq .accordion {
+  width: 100%;
+}
