@@ -17,18 +17,18 @@ try-and-learn-figma-mcp-server-book
 │ ├ 03
 │ │ ├ sds.fig
 │ │ └ example-html/
-│ │     ├ index.html
-│ │     └ style.css
+│ │   ├ index.html
+│ │   └ style.css
 │ └ 04
-│     ├ sds/                    # https://github.com/figma/sds をベースに書籍の手順に沿って追加
-│     │ ├ src/examples/
-│     │ │ └ MyLandingPage.tsx   # 既存コンポーネントを使ったランディングページ
-│     │ └ src/ui/primitives/
-│     │     └ Alert/            # 「Alert」コンポーネント
-│     └ sds.fig                 # Simple Design System に Alert を追加した Figma ファイル
+│   ├ sds/                  # https://github.com/figma/sds をベースに書籍の手順に沿って追加
+│   │ ├ src/examples/
+│   │ │ └ MyLandingPage.tsx # 既存コンポーネントを使ったランディングページ
+│   │ └ src/ui/primitives/
+│   │   └ Alert/            # 「Alert」コンポーネント
+│   └ sds.fig               # Simple Design System に Alert を追加した Figma ファイル
 └ chapter3
   └ 05
-      └ design.fig
+    └ design.fig
 ```
 
 
