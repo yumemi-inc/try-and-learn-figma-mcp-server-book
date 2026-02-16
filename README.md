@@ -15,20 +15,19 @@ try-and-learn-figma-mcp-server-book
 │ ├ 02
 │ │ └ mcp.json
 │ ├ 03
-│ │ ├ sds.fig
 │ │ └ example-html/
-│ │     ├ index.html
-│ │     └ style.css
+│ │   ├ index.html
+│ │   └ style.css
 │ └ 04
-│     ├ sds/                    # https://github.com/figma/sds をベースに書籍の手順に沿って追加
-│     │ ├ src/examples/
-│     │ │ └ MyLandingPage.tsx   # 既存コンポーネントを使ったランディングページ
-│     │ └ src/ui/primitives/
-│     │     └ Alert/            # 「Alert」コンポーネント
-│     └ sds.fig                 # Simple Design System に Alert を追加した Figma ファイル
+│   ├ sds/                  # https://github.com/figma/sds をベースに書籍の手順に沿って追加
+│   │ ├ src/examples/
+│   │ │ └ MyLandingPage.tsx # 既存コンポーネントを使ったランディングページ
+│   │ └ src/ui/primitives/
+│   │   └ Alert/            # 「Alert」コンポーネント
+│   └ sds.fig               # Simple Design System に Alert を追加した Figma ファイル
 └ chapter3
   └ 05
-      └ design.fig
+    └ design.fig
 ```
 
 
@@ -44,7 +43,6 @@ Figma MCPサーバーを利用するための基本設定ファイルです。
 
 #### セクション03 デザインからHTMLとCSSのページを生成する
 Figmaデザインをもとに、静的な HTML / CSS を生成する演習用サンプルです。
-- `sds.fig`
 - `example-html/`
 
 
