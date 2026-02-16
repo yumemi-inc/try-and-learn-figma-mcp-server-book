@@ -15,7 +15,6 @@ try-and-learn-figma-mcp-server-book
 │ ├ 02
 │ │ └ mcp.json
 │ ├ 03
-│ │ ├ sds.fig
 │ │ └ example-html/
 │ │   ├ index.html
 │ │   └ style.css
@@ -44,7 +43,6 @@ Figma MCPサーバーを利用するための基本設定ファイルです。
 
 #### セクション03 デザインからHTMLとCSSのページを生成する
 Figmaデザインをもとに、静的な HTML / CSS を生成する演習用サンプルです。
-- `sds.fig`
 - `example-html/`
 
 
