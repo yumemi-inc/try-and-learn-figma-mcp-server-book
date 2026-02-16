@@ -1,0 +1,51 @@
+.alert {
+  --border-radius: var(--sds-size-radius-200);
+  align-items: flex-start;
+  background-color: var(--alert-background-color);
+  border-radius: var(--border-radius);
+  box-shadow: inset 0 0 0 var(--sds-size-stroke-border)
+    var(--alert-border-color);
+  color: var(--alert-color);
+  display: grid;
+  font: var(--sds-font-body-base);
+  grid-template-areas: "icon content";
+  grid-template-columns: min-content 1fr;
+  padding: var(--sds-size-space-300) var(--sds-size-space-400);
+  width: 100%;
+}
+
+.alert-icon {
+  align-self: flex-start;
+  grid-area: icon;
+}
+
+.alert-icon + .alert-content {
+  margin-left: var(--sds-size-space-300);
+}
+
+.alert-content {
+  grid-area: content;
+  min-width: 0;
+}
+
+.alert-content > * + * {
+  margin-top: var(--sds-size-space-100);
+}
+
+.alert-icon .icon {
+  --icon-color: var(--alert-icon-color);
+}
+
+.alert-variant-info {
+  --alert-color: var(--sds-color-text-default-default);
+  --alert-icon-color: var(--sds-color-icon-default-default);
+  --alert-border-color: var(--sds-color-border-default-default);
+  --alert-background-color: var(--sds-color-background-default-secondary);
+}
+
+.alert-variant-warning {
+  --alert-color: var(--sds-color-text-warning-on-warning-tertiary);
+  --alert-icon-color: var(--sds-color-icon-warning-on-warning-tertiary);
+  --alert-border-color: var(--sds-color-border-warning-default);
+  --alert-background-color: var(--sds-color-background-warning-tertiary);
+}
