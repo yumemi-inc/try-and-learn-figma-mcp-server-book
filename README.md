@@ -12,13 +12,13 @@
 ```
 try-and-learn-figma-mcp-server-book
 ├ chapter2
-│ ├ 02
+│ ├ section02
 │ │ └ mcp.json
-│ ├ 03
+│ ├ section03
 │ │ └ example-html/
 │ │   ├ index.html
 │ │   └ style.css
-│ └ 04
+│ └ section04
 │   ├ sds/                  # https://github.com/figma/sds をベースに書籍の手順に沿って追加
 │   │ ├ src/examples/
 │   │ │ └ MyLandingPage.tsx # 既存コンポーネントを使ったランディングページ
@@ -26,7 +26,7 @@ try-and-learn-figma-mcp-server-book
 │   │   └ Alert/            # 「Alert」コンポーネント
 │   └ sds.fig               # Simple Design System に Alert を追加した Figma ファイル
 └ chapter3
-  └ 05
+  └ section05
     └ design.fig
 ```
 
