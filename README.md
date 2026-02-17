@@ -37,20 +37,20 @@ try-and-learn-figma-mcp-server-book
 
 #### セクション02 環境構築と設定
 Figma MCPサーバーを利用するための基本設定ファイルです。
-- `mcp.json`
+- [`mcp.json`](chapter2/section02/mcp.json)
 
 
 
 #### セクション03 デザインからHTMLとCSSのページを生成する
 Figmaデザインをもとに、静的な HTML / CSS を生成する演習用サンプルです。
-- `example-html/`
+- [`example-html/`](chapter2/section03/example-html/)
 
 
 
 
 #### セクション04 Reactコンポーネントを生成し、既存プロジェクトを拡張する
-- `sds/`（React演習プロジェクト — [figma/sds](https://github.com/figma/sds) をベースに書籍の手順に沿って追加）
-- `sds.fig`（Simple Design System に Alert を追加した Figma ファイル）
+- [`sds/`](chapter2/section04/sds/)（React演習プロジェクト — [figma/sds](https://github.com/figma/sds) をベースに書籍の手順に沿って追加）
+- [`sds.fig`](chapter2/section04/sds.fig)（Simple Design System に Alert を追加した Figma ファイル）
 
 既存プロジェクトに対して Figma MCP を活用し、コンポーネントを生成・拡張する実践例です。
 
@@ -60,7 +60,7 @@ Figmaデザインをもとに、静的な HTML / CSS を生成する演習用サ
 #### セクション05 理解を同期する
 AIが文脈として扱いやすい構造・命名・整理を行ったデザイン例です。
 
-- `design.fig`
+- [`design.fig`](chapter3/section05/design.fig)
 
 
 
